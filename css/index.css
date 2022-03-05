@@ -27,63 +27,63 @@ body{
 }
 /* Start Header Coding */
 
-header{
+my-header{
 	width: 100%;
 	height: 55px;
 	background: blue;
 	float: left;
 }
 
-header .menu{
+my-header .menu{
 	width: 80%;
 	height: 55px;
 	margin: auto;
 	padding: 0 10px;
 }
 
-header .menu .brand-name{
+my-header .menu .brand-name{
 	width: 35%;
 	float: left;
 }
-header .menu .brand-name a{
+my-header .menu .brand-name a{
 	text-decoration: none;
 }
-header .menu .brand-name h2{
+my-header .menu .brand-name h2{
 	font-family: Gotu;
 	font-size: 35px;
 	color: white;
 }
 /* start nav ul li coding */
-header .menu nav{
+my-header .menu nav{
 	width: 65%;
 	float: left;
 }
 
-header .menu nav ul{
+my-header .menu nav ul{
 	list-style: none;
 }
 
-header .menu nav ul li{
+my-header .menu nav ul li{
 	display: inline-block;
 	margin: 8px 10px;
 	padding: 2px 10px;
 }
-header .menu nav ul li a:current{
+my-header .menu nav ul li a:current{
 	color: red;
 }
-header .menu nav ul li:hover{
+my-header .menu nav ul li:hover{
 	border:none;
 	border-bottom: 3px solid rgb(38, 0, 255);
 }
 
-header .menu nav ul li:hover a{
+my-header .menu nav ul li:hover a{
 	color: #d49b00;
 }
-header .menu nav ul li a.active {
+my-header .menu nav ul li a.active {
     background-color: #04AA6D;
     color: rgb(233, 13, 13);
   }
-header .menu nav ul li a{
+my-header .menu nav ul li a{
 	color: white;
 	text-decoration: none;
 	font-family: Gotu;
