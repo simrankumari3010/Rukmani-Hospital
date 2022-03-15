@@ -1,113 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta name="keywords" content="HOSPITAL,HOSPITAL.COM,HOSPITAL WEBSITE, MEDICAN">
-	<meta name="description" content="india's best hospital website of indian">
-	<meta name="author" content="hospital.com">
-	<title>hospital.com</title>
-	<link rel="stylesheet" type="text/css" href="../css/index.css">
-	<script src="../javascript/customel.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../javascript/customel.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>        
 </head>
-<body>
-<!-- Start Header Coding-->
+<body>  
 <my-header>
-	<div class="menu">
-		
-		<div class="brand-name">
-			<a href="index.html">
-				<h2 class="animated flash">
-				<i class="fa fa-hospital"></i>&nbsp;
-				RUKMANI HOSPITAL</h2>
-			</a>
-		</div>
-		
-         <nav>
-         	<ul>
-         		<li><a href="index.html">Home</a></li>
-         		<li><a href="gallery.html">Gallery</a></li>
-         		<li><a class="current" style="color: brown;" href="register.html">Register</a></li>
-         		<li><a href="login.html">Login</a></li>
-         		<li><a href="contact.html">Contact Us</a></li>
-         	</ul>
-         </nav>
-		<!-- End Nav coding & menu coding -->
-	</div>
-</my-header>
-<!-- End Header Coding-->
-<!-- Start Section Coding-->
-<section>
-	<div class="w-80" style="padding: 0;">
-		
-	<!-- text decoration coding -->
-	<br/><br/>
-    <div style="padding-left:16px">
-		<img alt="bg" border=1px align= right src= "images/hydrabad.jfif" width="500" height="210">
-		<div class="boxes" 
-		<h1 style=" color:rgb(206, 23, 23);  text-align:rightt;"><font size="7"><b>Hydrabad</b> </font></h1>
-		<p>Rukmani Hospital<br>
-			Sector &nbsp;&nbsp;&nbsp; &#0020; x <br>
-			abc<br>
-			State :- Telangna<br>
-			Pin code</p><br><br>
-		  </div><br><br>
-		</div> 
    
-              <div style="padding-left:16px">
-                <img alt="bg" border=1px align= right src= "images/mumbai.jfif" width="500" height="210">
-                <div class="boxe"
-                <h1 style=" color:rgb(206, 23, 23);  text-align:rightt;"><font size="7"><b>Mumbai</b> </font></h1>
-                <p>Rukmani Hospital<br>
-                    Sector &nbsp;&nbsp;&nbsp; &#0020; x <br>
-                    abc<br>
-                    State :- Mumbai<br>
-                    Pin code</p><br><br>
-                  </div><br><br>
-                </div> 
-                <div style="padding-left:16px">
-                    <img alt="bg" border=1px align= right src= "images/delhi.jpg" width="500" height="210">
-                    <div class="box1"
-                    <h1 style=" color:rgb(23, 148, 206);  text-align:rightt;"><font size="7"><b>Delhi</b> </font></h1>
-                    <p>Rukmani Hospital/Head Office<br>
-                        Sector &nbsp;&nbsp;&nbsp; &#0020; x <br>
-                        abc<br>
-                        State :- Delhi
-                        pincode:-1XXX
-                        <br>
-                        Pin code</p><br><br>
-                      </div><br><br>
-                    </div> 
-	 </div>
-</section>
-<!-- End Section Coding-->
-<!-- Start Footer Coding-->
-<footer>
-	<div class="w-80">
-		<div class="footer-box">
- 		<h2>Other Branches</h2>
- 		<a href="#">Sharda clinic</a>
- 		<a href="#">Rukmani DRESSAGE</a>
- 		<a href="#">Rahat LABORATORY</a>
- 		
- 	</div>
- 	<div class="footer-box">
- 		<h2>Head Offices</h2>
- 		<a href="Headoffice.html">Hydrabad</a>
- 		<a href="Headoffice.html">Mumbai</a>
- 		<a href="Headoffice.html">Delhi</a>
- 		
- 	</div>
- 	<div class="footer-box">
- 		<h2>Other Locations</h2>
- 		<a href="#">Chandigarh</a>
- 		<a href="#">Goa</a>
- 		<a href="#">Shrinagar</a>
- 		
- 	</div>
- 	
-	</div>
-</footer>
-<!-- End footer Coding-->
+</my-header><br>
+<section>
+    <h2>Headoffice</h2>
+    <!--Marquee code starting-->
+    <div id="marquee">
+        <div class="container mt-5">
+            <div class="pic-container">
+                <div class="pic br ">
+                    <img src="../images/hydrabad.jpg" alt="img" class="size">
+                    <h2 style="color:red;position: absolute; top: 10px; width: 100%;">Hydrabad</h2>
+                </div>
+                <div class="pic br">
+                    <img src="../images/gurgaon.jpg" alt="img">
+                    <h2 style="color:rgb(250, 248, 248);position: absolute; top: 10px; width: 100%;">Gurgaon</h2>
+                </div>
+                <div class="pic br">
+                    <img src="../images/delhi.jpg" alt="img">
+                    <h2 style="color:red;position: absolute; top: 10px; width: 100%;">Delhi</h2>
+                </div>
+                <div class="pic br">
+                    <img src="../images/manipur.jpg" alt="img">
+                    <h2 style="color:white;position: absolute; top: 10px; width: 100%;">Manipur</h2>
+                </div>
+                <div class="pic br">
+                    <img src="../images/mumbai.jpg" alt="img">
+                    <h2 style="color:white;position: absolute; top: 10px; width: 100%;">Mumbai</h2>
+                </div>
+                <div class="pic br">
+                    <img src="../images/chandigarh.jpg" alt="img">
+                    <h2 style="color:red;position: absolute; top: 10px; width: 100%;">Chandigarh</h2>
+                </div>
+                <div class="pic br">
+                    <img src="../images/himachal.jpg" alt="img">
+                    <h2 style="color:rgb(243, 236, 236);position: absolute; top: 10px; width: 100%;">Himachal Pardesh</h2>
+                </div>
+                <div class="pic br">
+                    <img src="../images/jaipur.jpg" alt="img">
+                    <h2 style="color:white;position: absolute; top: 10px; width: 100%;">Jaipur</h2>
+                </div>
+                <div class="pic br">
+                    <img src="../images/kolkata.jpg" alt="img">
+                    <h2 style="color:white;position: absolute; top: 10px; width: 100%;">Kolkata</h2>
+                </div>
+                <div class="pic br">
+                    <img src="../images/pune.jpg" alt="img">
+                    <h2 style="color:white;position: absolute; top: 10px; width: 100%;">Pune</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--Marquee code End-->
+    <br>
+     <!--Address code starting-->
+    <div class="container mt-5">
+      <div class="accordion" id="main"> 
+        <div class="row">
+            <div class="col-3">
+                <button class="btn btn-outline-primary"
+                    data-toggle="collapse"
+                    data-target="#div1">Hydrabad
+                </button> 
+            </div>
+    
+            <div class="col-3">  
+                <button class="btn btn-outline-primary"
+                        data-toggle="collapse"
+                        data-target="#div2">Gurgaon
+                </button> 
+            </div> 
+            <div class="col-3">
+                <button class="btn btn-outline-primary"
+                    data-toggle="collapse"
+                    data-target="#div3">Manipur
+                </button> 
+            </div> 
+            <div class="col-3">
+                <button class="btn btn-outline-primary"
+                    data-toggle="collapse"
+                    data-target="#div4">Delhi
+                </button>
+            </div> 
+            
+        </div> <br><br>
+        <div class="row">
+            <div class="col">
+                <div class="collapse multicollapse" id="div1">
+                    <div class="card  card-deck border-black">
+                            <div class="cardheader bg-warning">
+                                <h5 class="text-danger">Hydrabad</h5>
+                            </div>
+                            <div class="bg-dark text-white card-body">
+                                <p>Address </p>
+                                <p>Head Office Rukmani Hospital <br>
+                                    Sector-67 ,Jubilee hills <br>
+                                    Hydrabad <br>
+                                    State :- Telangana<br>
+                                    Pin code-500095</p> 
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse multicolapse" id="div2">
+                    <div class="card card-deck border-black">
+                        <div class="cardheader bg-warning">
+                            <h5 class="text-danger">Gurgaon</h5>
+                        </div>
+                        <div class="bg-dark text-white card-body">
+                            <p class="text-info">Address </p>
+                            <p>Head Office Rukmani Hospital <br>
+                            near Rajiv Chowk <br>
+                            Gurugram <br>
+                            State :- Haryana<br>
+                            Pin code-122001</p> 
+                            
+                        </div>   
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col">
+              <div class="collapse multicolapse" id="div3">
+                <div class="card card-deck border-black">
+                  <div class="cardheader bg-warning">
+                    <h5 class="text-danger">Manipur</h5>
+                  </div>
+                  <div class="bg-dark text-white card-body">
+                    <p class="text-info">Address </p>
+                    <p>Head Office <br>
+                        NH 39, Khongnang Ani Karak  795001 <br>
+                        Imphal, Manipur<br>
+                        Pin code-782105</p> 
+                   </div>   
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="collapse multicolapse" id="div4">
+                  <div class="card card-deck border-black">
+                    <div class="cardheader bg-warning">
+                      <h5 class="text-danger">Delhi</h5>
+                    </div>
+                    <div class="bg-dark text-white card-body">
+                      <p class="text-info">Address </p>
+                      <p>Head Office Rukmani Hospital <br>
+                          near Chandni Chowk <br>
+                          Old delhi,Delhi <br>
+                          India<br>
+                          Pin code-122001</p> 
+                     </div>   
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+    </div> 
+    <div class="accordion mt-3" id="main"> 
+        <div class="row">
+            <div class="col-3">
+                <button class="btn btn-outline-primary"
+                    data-toggle="collapse"
+                    data-target="#div5">Mumbai
+                </button> 
+            </div>
+    
+            <div class="col-3">  
+                <button class="btn btn-outline-primary"
+                        data-toggle="collapse"
+                        data-target="#div6">Chandigarh
+                </button> 
+            </div> 
+            <div class="col-3">
+                <button class="btn btn-outline-primary"
+                    data-toggle="collapse"
+                    data-target="#div7">Himachal Pardesh
+                </button> 
+            </div> 
+            <div class="col-3">
+                <button class="btn btn-outline-primary"
+                    data-toggle="collapse"
+                    data-target="#div8">Kolkata
+                </button> 
+            </div> 
+            </div> <br><br>
+        <div class="row">
+            <div class="col">
+                <div class="collapse multicollapse" id="div5">
+                    <div class="card  card-deck border-black">
+                            <div class="cardheader bg-warning">
+                                <h5 class="text-danger">Mumbai</h5>
+                            </div>
+                            <div class="bg-dark text-white card-body">
+                                <p>Address </p>
+                                <p>Head Office Rukmani Hospital <br>
+                                    Mallad <br>
+                                    Near Station, Ambedkar Garden <br>
+                                    Mumbai<br>
+                                    Pin code-400008</p> 
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse multicolapse" id="div6">
+                    <div class="card card-deck border-black">
+                        <div class="cardheader bg-warning">
+                            <h5 class="text-danger">Chandigarh</h5>
+                        </div>
+                        <div class="bg-dark text-white card-body">
+                            <p class="text-info">Address </p>
+                            <p>Head Office  Rukmani Hospital <br>
+                            Sector-68,Mohali<br>
+                            Chandigarh <br>
+                            India<br>
+                            Pin code-160062</p> 
+                            
+                        </div>   
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col">
+              <div class="collapse multicolapse" id="div7">
+                <div class="card card-deck border-black">
+                  <div class="cardheader bg-warning">
+                    <h5 class="text-danger">Himachal Pardesh</h5>
+                  </div>
+                  <div class="bg-dark text-white card-body">
+                    <p class="text-info">Address </p>
+                    <p>Head Office Rukmani Hospital <br>
+                        balu <br>
+                        Mandi <br>
+                        Himachal Pardesh<br>
+                        Pin code-175121</p> 
+                   </div>   
+                </div>
+              </div>
+            </div>
+              <div class="col">
+              <div class="collapse multicolapse" id="div8">
+                <div class="card card-deck border-black">
+                  <div class="cardheader bg-warning">
+                    <h5 class="text-danger">Kolkata</h5>
+                  </div>
+                  <div class="bg-dark text-white card-body">
+                    <p class="text-info">Address </p>
+                    <p>Head Office Rukmani Hospital <br>
+                        <span class="text-danger">In <br>
+                        Progress</span> <br>
+                        State :- Kolkata<br>
+                        Pin code-22000</p> 
+                   </div>   
+                </div>
+              </div>
+            </div>
+            
+        </div>
+    </div> 
+  </div>
+
+</section><br><br>
+<my-footer></my-footer>
 </body>
 </html>
