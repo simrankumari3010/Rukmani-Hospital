@@ -7,7 +7,7 @@ class MyHeader extends HTMLElement
         <i class="fa-solid fa-hospital" style="font-size:48px;color:rgb(192, 168, 168)">&nbsp;<span class="h1">Rukmani Hospital</span></i>
                 </div>
                 <div class="Items">
-                <button class="btn"><a href="../index.html">HOME</a></button>
+                <button class="btn"><a href="index.html">HOME</a></button>
                 <button class="btn "><a href="gallery.html">GALLERY</a></button>
                 <button class="btn"><a href="Headoffice.html">OUR OFFICES</a></button>
                 <button class="btn"><a href="health.html">HEALTH TIPS</a></button>
@@ -108,17 +108,21 @@ class MyFooter extends HTMLElement
               <div class="col-md-3 ml-5 mb-md-0 mb-3">
         
                 <!-- Links -->
-                <h5 class="text-uppercase  text-info">Follow Us </h5>
+                <h5 class="text-uppercasetext-info">Follow Us <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+              </span>
+              fa-flag on fa-circle<br> </h5>
         
                 <ul class="list-unstyled">
                   <li>
-                    <a href="#!">Link 1</a>
+                    <a href="#"></a>
                   </li>
                   <li>
-                    <a href="#!">Link 2</a>
+                    <a href="#">Link 2</a>
                   </li>
                   <li>
-                    <a href="#!">Link 3</a>
+                    <a href="#">Link 3</a>
                   </li>
                   <li>
                     <a href="#!">Link 4</a>
