@@ -74,106 +74,46 @@ class MyFooter extends HTMLElement
        
 
     <footer class="page-footer font-small blue pt-4 text-white bg-dark">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+              <div class="col-md-12 py-5">
+                <div class="mb-5 flex-center">
 
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
-  
-      <!-- Grid row -->
-      <div class="row">
-  
-        <!-- Grid column -->
-        
-          <!-- Content -->
-          
-  
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
-    
-            <!-- Links -->
-            <h5 class="text-uppercase">Follow us</h5>
-    
-            <ul class="list-unstyled">
-              <li>
-                <a href="http://www.twitter.com/"><div class="logo-link"><img src="https://www.fraserhealth.ca:443/-/media/Project/FraserHealth/FraserHealth/Icons/Social-Media/twitter.png?h=40&amp;la=en&amp;w=40&amp;rev=7223be8db0f1469e82fb5e4cfcd9f859&amp;hash=4C93ED55951ED98A9D544294669713497951264B" alt="" width="40" height="40" data-variantitemid="{5D6A3279-71C8-4F79-89F5-84579B8E9596}" data-variantfieldname="Icon" style="margin: 0px 0px" /></a> Twitter</div>   
-              </li>
-              <li>
-                   <a href="http://www.facebook.com/"><div class="logo-link "><img src="https://www.fraserhealth.ca:443/-/media/Project/FraserHealth/FraserHealth/Icons/Social-Media/facebook.png?h=40&amp;la=en&amp;w=40&amp;rev=cf4f151557694075af9114e7ea31d28d&amp;hash=49EA6A71D4D4DF226FABF34BAA1EB27874834274" alt="" width="40" height="40" data-variantitemid="{0EBB3880-55E3-4D9C-8F0B-8EA185A8BB4B}" data-variantfieldname="Icon" style="margin: 0px 0px " /></a>Facebook</div>
                 
-              </li>
-              <li>
-               <a href="https://www.youtube.com/user/"><div class="logo-link"><img src="https://www.fraserhealth.ca:443/-/media/Project/FraserHealth/FraserHealth/Icons/Social-Media/youtube.png?h=40&amp;la=en&amp;w=40&amp;rev=7e23cd3605f444189d45ccaaf58e91a8&amp;hash=D2A213DC0DF0884EE52FA33243FBE2B474C58A03" alt="" width="40" height="40" data-variantitemid="{04FF412E-F2B8-4DE4-B466-1E5E2577B32C}" data-variantfieldname="Icon" style="margin: 0px 0px" /></a>Youtube</div>
-               </li>
-            <li>
-                <a href="https://www.linkedin.com/company/"><div class="logo-link"><img src="https://www.fraserhealth.ca:443/-/media/Project/FraserHealth/FraserHealth/Icons/Social-Media/linked-in.png?h=40&amp;la=en&amp;w=40&amp;rev=974da231f360498392f5fc47048c1212&amp;hash=BDC79352EF95DC8D9E72E73419851A54B7DCDEC4" alt="" width="40" height="40" data-variantitemid="{74FEFFC1-A4D0-4BDE-B8B5-58E3EE9F2BAB}" data-variantfieldname="Icon" style="margin: 0px 0px" /></a>Linkedin</div>
-
-            </li>
-            <li>
+                <a class="fb-ic">
+                  <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
                 
-               <a href="https://www.instagram.com/"><div class="logo-link"><img src="https://www.fraserhealth.ca:443/-/media/Project/FraserHealth/FraserHealth/Icons/Social-Media/ig_png40-40.png?h=40&amp;la=en&amp;w=40&amp;rev=61120eaec84542179b7794b3db1b37f0&amp;hash=EEB8F09964DAFFC52A9EE822B43E555A98B5AD69" alt="" width="40" height="40" data-variantitemid="{2E67FB47-35C1-46CC-A2B4-6E8B3BE06817}" data-variantfieldname="Icon" style="margin: 0px 0px" /></a>Instagram</div>
-              
-            </li>
-             
-            </ul>
-    
-          </div>
-        <!-- Grid column -->
-  
-        <hr class="clearfix w-100 d-md-none pb-3">
-  
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-  
-          <!-- Links -->
-          <h5 class="text-uppercase">Official</h5>
-  
-          <ul class="list-unstyled text-white">
-            <li>
-                <a href="https://www.gmail.com/"  style="color:white;"><img src="../images/email.png" width="40" height="40" style="margin: 0px 0px;">rukmani@gmail.com</a><br><br>
+                <a class="tw-ic">
+                  <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
                 
-            </li>
-            <li>
-                <a href="#" style="color:white;"><img src="../images/phone.png "width="40" height="40" style="margin: 0px 0px">1800-021-xxxx</a><br>
-            </li>
-           
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-  
-          <!-- Links -->
-          <h5 class="text-uppercase">Branches</h5>
-  
-          <ul class="list-unstyled ">
-            <li>
-              <a href="rukmani.html" style="color:white;">Rukmani Clinic</a>
-            </li>
-            <li>
-              <a href="sharda.html" style="color:white;">Sharda Hospital</a>
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
+                <a class="gplus-ic">
+                  <i class="fa fa-google fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Linkedin -->
+                <a class="li-ic">
+                  <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Instagram-->
+                <a class="ins-ic">
+                  <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+                <!--Pinterest-->
+                <a class="pin-ic">
+                  <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                </a>
+              </div>
       </div>
-      <!-- Grid row -->
-  
+      <!-- Grid column -->
+
     </div>
-    <!-- Footer Links -->
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2022 Copyright:
-      <a href="#"> Rukmani.com</a>
-    </div>
-    <!-- Copyright -->
-  
-  
-               
-        </div>
-        </nav>
+    
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="/"> RukmaniHospital.com</a>
+  </div>
+ </footer>
          `
     }
 }
