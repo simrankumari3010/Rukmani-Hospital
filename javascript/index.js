@@ -71,49 +71,77 @@ class MyFooter extends HTMLElement
     {
         this.innerHTML = `
         
-       
-
-    <footer class="page-footer font-small blue pt-4 text-white bg-dark">
-        <div class="container-fluid text-center text-md-left">
-          <div class="row">
-              <div class="col-md-12 py-5">
-                <div class="mb-5 flex-center">
-
-                
-                <a class="fb-ic">
-                  <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
-                
-                <a class="tw-ic">
-                  <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
-                
-                <a class="gplus-ic">
-                  <i class="fa fa-google fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
-                <!--Linkedin -->
-                <a class="li-ic">
-                  <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
-                <!--Instagram-->
-                <a class="ins-ic">
-                  <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
-                <!--Pinterest-->
-                <a class="pin-ic">
-                  <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
-                </a>
+        <footer class="page-footer font-small bg-dark text-white pt-4">
+          <div class="container-fluid text-center text-md-left">
+            <div class="row">
+              <div class="col-md-4 ml-4 mt-md-0 mt-3">
+                <h5 class="text-uppercase  text-info">Rukmani Hospital</h5>
+                <p class="text-justify">Rukamin Hospital is a very good and proper manage hospital. 
+                Proper facilities are provide in our hospital. Everyone wants to fit and health in a 
+                better way. So Rukmani hospital is best in every field of patient requirement and expectation.You can join with us.</p>
+        
               </div>
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    
-  </div>
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="/"> RukmaniHospital.com</a>
-  </div>
- </footer>
+              <!-- Grid column -->
+        
+              <hr class="clearfix w-100 d-md-none pb-3">
+        
+              <!-- Grid column -->
+              <div class="col-md-3 ml-5 mb-md-0 mb-3">
+        
+                <!-- Links -->
+                <h5 class="text-uppercase  text-info">Official Contacts</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-white" href="#">1800-321-678</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="#">r.hospital@gmail.com</a>
+                  </li>
+                  
+                </ul>
+        
+              </div>
+              <!-- Grid column -->
+        
+              <!-- Grid column -->
+              <div class="col-md-3 ml-5 mb-md-0 mb-3">
+        
+                <!-- Links -->
+                <h5 class="text-uppercase  text-info">Follow Us </h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 4</a>
+                  </li>
+                </ul>
+        
+              </div>
+              <!-- Grid column -->
+        
+            </div>
+            <!-- Grid row -->
+        
+          </div>
+          <!-- Footer Links -->
+        
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="/"> Rukmani Hospital.com</a>
+          </div>
+          <!-- Copyright -->
+        
+        </footer>
+        <!-- Footer -->
          `
     }
 }
