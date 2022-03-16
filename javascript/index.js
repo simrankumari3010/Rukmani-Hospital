@@ -3,9 +3,13 @@ class MyHeader extends HTMLElement
     connectedCallback()
     {
         this.innerHTML = `  <nav class="navbar ">
-        <div class="head">
-        <i class="fa-solid fa-hospital" style="font-size:48px;color:rgb(192, 168, 168)">&nbsp;<span class="h1">Rukmani Hospital</span></i>
-                </div>
+              <a class="navbar-brand " href="#">
+                    <i class="fa fa-hospital-o text-danger font-weight-solid font-italic " aria-hidden="true">RUKMANI HOSPITAL</i>
+
+                    </a>
+              <div class="head">
+              
+               </div>
                 <div class="Items">
                 <button class="btn"><a href="index.html">HOME</a></button>
                 <button class="btn "><a href="gallery.html">GALLERY</a></button>
@@ -72,31 +76,30 @@ class MyFooter extends HTMLElement
         this.innerHTML = `
         
         <footer class="page-footer font-small bg-dark text-white pt-4">
-          <div class="container-fluid text-center text-md-left">
+        <h2 class="text-center text-danger font-italic">WE CARE ABOUT YOU & YOUR HEALTH</h2>
+          <div class="container-fluid text-center mt-4 text-md-left">
             <div class="row">
-              <div class="col-md-4 ml-4 mt-md-0 mt-3">
-                <h5 class="text-uppercase  text-info">Rukmani Hospital</h5>
-                <p class="text-justify">Rukamin Hospital is a very good and proper manage hospital. 
-                Proper facilities are provide in our hospital. Everyone wants to fit and health in a 
-                better way. So Rukmani hospital is best in every field of patient requirement and expectation.You can join with us.</p>
-        
-              </div>
+              
               <!-- Grid column -->
-        
-              <hr class="clearfix w-100 d-md-none pb-3">
-        
-              <!-- Grid column -->
-              <div class="col-md-3 ml-5 mb-md-0 mb-3">
+              <div class="col-3">
         
                 <!-- Links -->
                 <h5 class="text-uppercase  text-info">Official Contacts</h5>
         
                 <ul class="list-unstyled">
-                  <li>
-                    <a class="text-white" href="#">1800-321-678</a>
+                <li>
+                   
+                   <p>Address: Head Office Rukmani Hospital <br>
+                    Sector-67 ,Jubilee hills <br>
+                    Hydrabad <br>
+                    State :- Telangana<br>
+                    Pin code-500095</p> 
                   </li>
                   <li>
-                    <a class="text-white" href="#">r.hospital@gmail.com</a>
+                    <a class="text-white" href="#">Phone- 1800-321-678</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="#">Gmail- r.hospital@gmail.com</a>
                   </li>
                   
                 </ul>
@@ -105,33 +108,69 @@ class MyFooter extends HTMLElement
               <!-- Grid column -->
         
               <!-- Grid column -->
-              <div class="col-md-3 ml-5 mb-md-0 mb-3">
+              <div class="col-3">
         
                 <!-- Links -->
-                <h5 class="text-uppercasetext-info">Follow Us <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
-              </span>
-              fa-flag on fa-circle<br> </h5>
+                <h5 class="text-uppercase text-info">Follow Us </h5>
         
                 <ul class="list-unstyled">
                   <li>
-                    <a href="#"></a>
+                    <a class="text-white" href="#">Facebook</a>
                   </li>
                   <li>
-                    <a href="#">Link 2</a>
+                    <a class="text-white" href="#">Twitter</a>
                   </li>
                   <li>
-                    <a href="#">Link 3</a>
+                    <a class="text-white" href="#">Linkdin</a>
                   </li>
                   <li>
-                    <a href="#!">Link 4</a>
+                    <a class="text-white" href="#!">Pinrest</a>
                   </li>
                 </ul>
         
               </div>
               <!-- Grid column -->
+              <div class="col-3">
+              <h5 class="text-uppercase text-info">Department </h5>
+              <ul class="list-unstyled">
+                  <li>
+                    <a class="text-white" href="#">Outpatient</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="#">Medical</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="#">Pharmacy</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="#!">Radiology</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="#!">Blood</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-3">
         
+                <!-- Links -->
+                <h5 class="text-uppercase  text-info">COMMUNITY</h5>
+        
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-white" href="#">Community</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="#">Blogs</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a class="text-white" href="#">Authors</a>
+                  </li>
+                </ul>
+        
+              </div>
             </div>
             <!-- Grid row -->
         

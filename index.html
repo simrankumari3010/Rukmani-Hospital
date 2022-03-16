@@ -19,6 +19,7 @@
 <body>
     <my-header></my-header>
     <section>
+      <div class="w-100">
     <div class="carousel slide" data-ride="carousel" id="myc">
         <div class="carousel-inner">
             <div class="carousel-item br active" >
@@ -42,11 +43,11 @@
     </div>
     <br><br>
     
-    <div class="container flex-center">
-      <div class="row pt-5 mt-3">
-        <div class="col-lg-6 wow fadeIn mb-5 text-center text-lg-left">
+    <div class="w-100 h-100 flex-center">
+      <div class="row pt-4  bg-success">
+        <div class="col-lg-6 wow  fadeIn mb-5 text-center text-lg-left">
           <div class="white-text">
-            <h1 class="h1-responsive font-weight-bold wow fadeInLeft  data-wow-delay="0.3s">About us</h1>
+            <h1 class="h1-responsive font-weight-bold wow fadeInLeft  data-wow-delay='0.3s'">About us</h1>
             <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
             <p class="wow fadeInLeft text-justify" data-wow-delay="0.3s"><b style="color: rgb(16, 3, 39);">"We are best in everything but our speciality is that we are provide best psychological session during the every serious injury or disese."
               Generally in many hospitals there is no area for the relexation, in our hospital we provide a special are where patient can feel free.  </b></p>
@@ -57,12 +58,13 @@
         <div class="col-lg-6 wow fadeIn">
           <div class="embed-responsive embed-responsive-16by9 wow fadeInRight">
               <img class="embed-responsive-item" 
-                  src="images/home.jpg">
+                  src="images/home.jpg" width="50px">
           </div>
         </div>
     </div>
     <hr>
-    <h2>Our Timings</h2>
+    <div class="bg-info">
+      <h1 class="h1-responsive font-weight-bold wow fadeInLeft  data-wow-delay='0.3s'">Our Timings</h1>
     <br>
     <table class="table table-content table-borederd table-md table-dark table-hover">
       <thead>
@@ -76,7 +78,7 @@
           <td  colspan="3">24*7</td>
           <td  colspan="3">Emergency Ward</td>
           </tr>
-        <tr class="bg-info">
+        <tr >
         <td>2</td>
         <td  colspan="3"> 9:00Am-12:00Pm</td>
         <td  colspan="3">Slips and Card entry</td>
@@ -86,7 +88,7 @@
           <td  colspan="3"> 10:00Am-12:00Pm</td>
           <td  colspan="3">Blood Test Sample</td>
           </tr>
-          <tr class="bg-primary">
+          <tr>
             <td>4</td>
             <td  colspan="3"> 09:30Am-11:45Pm</td>
             <td  colspan="3">Blood Test Report</td>
@@ -99,15 +101,56 @@
           <tr>
       </thead>
     </table>
+  </div>
     <br>
-    <h3>Our main treatment <a class="text-info" href="html/treatment.html">Click here</a></h3>
+    <div class="bg-info">
+      <h1 class="h1-responsive font-weight-bold wow fadeInLeft  data-wow-delay='0.3s'">Our Main Treatment</h1>
+    <div class="row ml-5">
+      <div class="card-deck">
+          <div class="card border-primary w-25 my-2 bg-white text-white">
+              <img src="images/diabetes.jpg" class="card-img-top " >
+              <div class="card-body text-dark text-justify">
+                  <h2 class="card-title">DIABETES</h2>
+                  <p class="card-text "> Diabetes is main treatment of our hospital Generally in Diabetes people face some problems like Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat.
+                    <br>
+                    </p>
+              </div>
+              
+           </div>
+      
+          <div class="card border-primary w-25 my-3  text-dark mx-5">
+              <img src="images/cvd.jpeg" class="card-img-top h-3 p3">
+              <div class="card-body text-dark text-justify">
+                  <h2 class="card-title">CARDIOVASCULAR DISEASES (CVD)</h2>
+                  <p class="card-text">Cardiovascular diseases (CVDs) are the leading cause of death globally, taking an estimated 17.9 million lives each year. CVDs are a group of disorders of the heart and blood vessels and include coronary heart disease, cerebrovascular disease, rheumatic heart disease and other conditions.
+                  </p>
+              </div>
+              
+          </div>
+         
+          <div class="card border-primary w-25 my-3  text-dark mx-5">
+              <img src="images/pshyco.jpeg" class="card-img-top">
+              <div class="card-body">
+                  
+                  <h2 class="card-title" >PSYCHOLOGICAL DISEASE</h2>
+                  <p class="card-text">Many people have mental health concerns from time to time. But a mental health concern becomes a mental illness when ongoing signs and symptoms cause frequent stress and affect your ability to function.</p>
+                  <br>
+              </div>
+          </div>
+    </div>
+    </div>
+  </div>
+    
+      
+        </div>
+</div>
         </div>
        
      <br>
      
       
      
-    
+    </div>   
 </div>
 <my-footer></my-footer>    
 </body>

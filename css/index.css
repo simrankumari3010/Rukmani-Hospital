@@ -8,6 +8,7 @@ my-header{
 }
 .navbar{
 	background-color: black;
+    height: 100px;
 }
 .head .h1{
 	text-shadow: 1px 2px rgb(207, 209, 196);
@@ -21,12 +22,12 @@ textarea{
 }
 .Items .btn{
 	background-color: rgb(236, 232, 232);
-	border-radius: 25px;
+	border-radius: 6px;
 
 }
 .Items .btn:hover{
-	background-color: blue;
-	border-radius: 75px;
+	background-color: red;
+	border-radius: 25px;
 }
 .Items a{
 	color: black;
@@ -53,7 +54,7 @@ section h1{
 }
 a{
     color: white;
-    text-transform: uppercase;
+    
 
 }
 
